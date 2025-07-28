@@ -1,0 +1,83 @@
+/* Creative Form Custom CSS */
+body,
+.bg-black {
+    background: #101820 !important;
+}
+
+.creative-form-title {
+    color: #19e6ff;
+    font-size: 2rem;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 2.5rem;
+}
+
+.creative-label {
+    color: #19e6ff;
+    font-size: 1rem;
+    font-weight: 500;
+    margin-bottom: 0.25rem;
+}
+
+.creative-input {
+    width: 100%;
+    background: transparent;
+    border: none;
+    border-bottom: 2px solid #19e6ff;
+    color: #fff;
+    font-size: 1.1rem;
+    padding: 0.5rem 0;
+    margin-bottom: 1.5rem;
+    transition: background 0.2s, border-color 0.2s;
+}
+
+.creative-input:focus {
+    outline: none;
+    background: #19e6ff33;
+    border-bottom: 2px solid #19e6ff;
+    color: #101820;
+}
+
+.creative-btn {
+    width: 100%;
+    background: #19e6ff;
+    color: #101820;
+    font-weight: bold;
+    font-size: 1.2rem;
+    padding: 0.75rem 0;
+    border: none;
+    border-radius: 0.5rem;
+    cursor: pointer;
+    transition: background 0.2s, color 0.2s;
+}
+
+.creative-btn:hover {
+    background: #0fd6e6;
+    color: #fff;
+}
+
+.creative-form-card {
+    width: 100%;
+    max-width: 700px;
+    margin: 0 auto;
+    padding: 2.5rem;
+    border-radius: 1rem;
+    background: transparent;
+    box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+}
+
+.creative-form-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 2rem;
+}
+
+@media (max-width: 768px) {
+    .creative-form-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .creative-form-card {
+        padding: 1.25rem;
+    }
+}
