@@ -1,6 +1,6 @@
 <x-app-layout>
     <x-slot name="header">
-        <h2 class="creative-form-title" style="font-size:2rem; margin-bottom: 0.5rem;">+ Apply for Leave</h2>
+        <h2 class="creative-form-title" style="font-size:2rem; margin-bottom: 0.5rem;">Apply for Leave</h2>
     </x-slot>
     <link rel="stylesheet" href="/css/creative-form.css">
     <div class="min-h-screen flex items-baseline justify-center py-8 px-2 bg-black">
